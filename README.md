@@ -48,7 +48,7 @@ Para treinar uma rede MLP eh preciso chamar mlp.m como abaixo. Observe
 que ha uma barra ('/') apos o nome do diretorio onde estao os arquivos
 de treinamento.
 
-$ octave mlp.m --treina <nome do diretorio contendo arquivos de exemplos>/ <tipo de arquivo dos exemplos>
+$ octave mlp.m --treina \<nome do diretorio contendo arquivos de exemplos\>/ \<tipo de arquivo dos exemplos\>
 
 e.g. $ octave mlp.m --treina train_ascii/ txt<br>
      $ octave mlp.m --treina train_bmp/ bmp
@@ -70,7 +70,7 @@ treinamento faz isso automaticamente). Para testar uma rede MLP eh preciso
 chamar mlp.m como abaixo. Observe que ha uma barra ('/') apos o nome do
 diretorio onde estao os arquivos de teste.
 
-$ octave mlp.m --testa <nome do diretorio contendo arquivos de teste>/ <tipo de arquivo dos testes> <arquivo de objeto MLP>
+$ octave mlp.m --testa \<nome do diretorio contendo arquivos de teste\>/ \<tipo de arquivo dos testes\> \<arquivo de objeto MLP\>
 
 e.g. $ octave mlp.m --testa test_ascii_10/ txt mlpobj.txt<br>
      $ octave mlp.m --testa test_bmp_10/ bmp mlpobj.txt
