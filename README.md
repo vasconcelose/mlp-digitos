@@ -49,7 +49,8 @@ que ha uma barra ('/') apos o nome do diretorio onde estao os arquivos
 de treinamento.
 
 $ octave mlp.m --treina <nome do diretorio contendo arquivos de exemplos>/ <tipo de arquivo dos exemplos>
-e.g. $ octave mlp.m --treina train_ascii/ txt
+
+e.g. $ octave mlp.m --treina train_ascii/ txt<br>
      $ octave mlp.m --treina train_bmp/ bmp
 
 Esta chamada cria dois arquivos de saida, a saber:
@@ -70,7 +71,8 @@ chamar mlp.m como abaixo. Observe que ha uma barra ('/') apos o nome do
 diretorio onde estao os arquivos de teste.
 
 $ octave mlp.m --testa <nome do diretorio contendo arquivos de teste>/ <tipo de arquivo dos testes> <arquivo de objeto MLP>
-e.g. $ octave mlp.m --testa test_ascii_10/ txt mlpobj.txt
+
+e.g. $ octave mlp.m --testa test_ascii_10/ txt mlpobj.txt<br>
      $ octave mlp.m --testa test_bmp_10/ bmp mlpobj.txt
 
 Esta chamada cria o arquivo resultados.txt, que contem as saidas (y) da rede a
